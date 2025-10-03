@@ -186,3 +186,17 @@ h2 {
   background: #d4c6b1;
   color: #fff;
 }
+.project-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+@media (max-width: 600px) {
+  .project-img {
+    max-width: 100%;
+  }
+}
